@@ -35,9 +35,8 @@ var loadSite = function(site) {
   console.log('Loading', site);
   page.open('http://' + site, function(status) {
     if (status === 'success') {
-      page.includeJs('http://p.wal.sh/pollution/pollution-cache.js', function() {
-        page.render('screenshots/' + site +'.png');
-      });
+      console.log('screenshots', site);
+      page.render('screenshots/' + site +'.png');
     }
     if (!sites.length) {
       phantom.exit();

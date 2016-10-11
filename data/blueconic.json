@@ -1,0 +1,886 @@
+[{
+	"result": {
+		"optinproperties": [],
+		"optoutplugins": [],
+		"optoutproperties": [],
+		"domainGroupId": "DEFAULT",
+		"id": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx",
+		"optinplugins": [],
+		"permissionlevel": "PERSONAL"
+	},
+	"profileId": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx",
+	"id": "1476038338462",
+	"error": ""
+}, {
+	"result": {},
+	"profileId": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx",
+	"id": "1476038338465",
+	"error": ""
+}, {
+	"result": {},
+	"profileId": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx",
+	"id": "1476038338466",
+	"error": ""
+}, {
+	"result": {
+		"ipaddress": "76.118.182.194",
+		"libraryversion": "1a9d6fb8fdd9a9e5d2c029e012990c6b",
+		"profileid": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx",
+		"staticurls": {
+			"listener_adblock": "https://plugins.blueconic.net/listener_adblock/1.0.5/",
+			"listenerinteractiontype": "https://plugins.blueconic.net/listenerinteractiontype/1.0.23/",
+			"contentrecommendations": "https://seattletimes.blueconic.net/plugins/contentrecommendations/ts_691c7fdcc8424eef04d8aa60a6fcc64a/",
+			"string": "https://plugins.blueconic.net/string/1.0.1/",
+			"enrichprofilebyvisitorbehavior": "https://plugins.blueconic.net/enrichProfileByVisitorBehavior/5.1.9/",
+			"listener_contentrecommendations": "https://seattletimes.blueconic.net/plugins/listener_contentrecommendations/ts_606d2f57185c475ef0574c4985916681/",
+			"listener_geolocation": "https://plugins.blueconic.net/listener_geolocation/1.0.6/",
+			"iplistenerinteractiontype": "https://plugins.blueconic.net/iplistenerinteractiontype/2.0.3/",
+			"engagement_interest_ranking": "https://seattletimes.blueconic.net/plugins/engagement_interest_ranking/ts_6b5b3980aeefb05b98e39958a6cc9ffb/",
+			"engagement_score": "https://seattletimes.blueconic.net/plugins/engagement_score/ts_87963b05335da00bb2261710d6ec3ea1/",
+			"conversionlistenerinteractiontype": "https://plugins.blueconic.net/conversionlistenerinteractiontype/1.0.4/",
+			"st_prelistener": "https://seattletimes.blueconic.net/plugins/st_prelistener/ts_f4e6bdb24d0dae450098964ac0380a01/",
+			"listener_preferred_hour": "https://seattletimes.blueconic.net/plugins/listener_preferred_hour/ts_ccdddcf125665c8e04aeef89669167a1/",
+			"forms": "https://plugins.blueconic.net/forms/1.0.10/"
+		},
+		"eventtypes": ["inactivity", "exitintent"],
+		"pluginversion": "728f1dd1af50b14a75468d6955e50ea6",
+		"channelId": "541bed6a-6cdf-4071-9149-51e3b4c13efd",
+		"connections": [],
+		"interactions": [{
+			"id": "st_prelistener",
+			"name": "st_prelistener",
+			"parameters": [],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "st_prelistener",
+				"myType": "GLOBALLISTENER",
+				"myPositionType": ""
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "st_prelistener",
+			"myPluginType": "GLOBALLISTENER"
+		}, {
+			"id": "forms",
+			"name": "forms",
+			"parameters": [],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "forms",
+				"myType": "TOOLBAR",
+				"myPositionType": ""
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "forms",
+			"myPluginType": "TOOLBAR"
+		}, {
+			"id": "conversionlistenerinteractiontype",
+			"name": "conversionlistenerinteractiontype",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": []
+			}, {
+				"locale": "nl_NL",
+				"parameter": []
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "conversionlistenerinteractiontype",
+				"myType": "GLOBALLISTENER",
+				"myPositionType": ""
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "conversionlistenerinteractiontype",
+			"myPluginType": "GLOBALLISTENER"
+		}, {
+			"id": "listenerinteractiontype",
+			"name": "listenerinteractiontype",
+			"parameters": [],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "listenerinteractiontype",
+				"myType": "GLOBALLISTENER",
+				"myPositionType": ""
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "listenerinteractiontype",
+			"myPluginType": "GLOBALLISTENER"
+		}, {
+			"id": "1611b6a6-dc7f-4ddf-bb20-2d36a25545f9",
+			"name": "BlueConic - New - all sticky",
+			"position": "#article-recommended-wrapper",
+			"positionName": "Article bottom content recommendations",
+			"parameters": [{
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "nsitems",
+					"value": ["0"]
+				}, {
+					"id": "topitems",
+					"value": ["0"]
+				}, {
+					"id": "inserttype",
+					"value": []
+				}, {
+					"id": "rankingproperty",
+					"value": []
+				}, {
+					"id": "donottrack",
+					"value": []
+				}, {
+					"id": "nritems",
+					"value": ["0"]
+				}, {
+					"id": "critems",
+					"value": ["0"]
+				}, {
+					"id": "othervalues",
+					"value": ["[]"]
+				}, {
+					"id": "sortorder",
+					"value": ["ctr"]
+				}, {
+					"id": "listener",
+					"value": ["4a24fed3-7bc1-475a-bbf3-f1ddbca21cea"]
+				}, {
+					"id": "remainingitems",
+					"value": ["0"]
+				}, {
+					"id": "rawcritems",
+					"value": ["4"]
+				}, {
+					"id": "exclusions",
+					"value": ["/sports/"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "contentrecommendations",
+				"myType": "ACTION",
+				"myPositionType": "position"
+			},
+			"dialogueName": "[BC-80] Recs - New - No sports",
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "contentrecommendations",
+			"myPluginType": "ACTION"
+		}, {
+			"id": "b531a5bf-d406-4c38-b54d-60c707894c4b",
+			"name": "Homepage recs - New",
+			"position": "div[data-zone\u003d\"Photography\"]",
+			"positionName": "Home page - photography",
+			"parameters": [{
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "othervalues",
+					"value": ["[]"]
+				}, {
+					"id": "inserttype",
+					"value": ["replacecontainer"]
+				}, {
+					"id": "remainingitems",
+					"value": ["0"]
+				}, {
+					"id": "rawcritems",
+					"value": ["4"]
+				}, {
+					"id": "sortorder",
+					"value": ["ctr"]
+				}, {
+					"id": "nsitems",
+					"value": [""]
+				}, {
+					"id": "critems",
+					"value": ["0"]
+				}, {
+					"id": "nritems",
+					"value": ["0"]
+				}, {
+					"id": "donottrack",
+					"value": ["true"]
+				}, {
+					"id": "exclusions",
+					"value": ["/sports/"]
+				}, {
+					"id": "topitems",
+					"value": ["0"]
+				}, {
+					"id": "rankingproperty",
+					"value": []
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "contentrecommendations",
+				"myType": "ACTION",
+				"myPositionType": "position"
+			},
+			"dialogueName": "[PROD] Recs - Homepage - New",
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "contentrecommendations",
+			"myPluginType": "ACTION"
+		}, {
+			"id": "32cc1a5d-3616-42cd-95e9-50fdae0efb7d",
+			"name": "Subsection interests",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "decay",
+					"value": ["90"]
+				}, {
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1466611228564,\"containsmatches\":\"matches\",\"ruletype\":\"interestcontent\",\"interests\":{\"name\":\"news_keywords\",\"selector\":\"var arr \u003d []; if (jQuery(\u0027meta[name\u003d\\\"news_keywords\\\"]\u0027).length \u003e 0) { var keywords \u003d jQuery(\u0027meta[name\u003d\\\"news_keywords\\\"]\u0027).attr(\u0027content\u0027).split(\u0027,\u0027); for (var i \u003d 0; i \u003c keywords.length; i++) { arr.push(jQuery(\u0027\u003cdiv\u003e\u0027 + keywords[i] + \u0027\u003c/div\u003e\u0027))} jQuery(arr)}\",\"previewUrl\":null},\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\",\"movie\"]}]}"]
+				}, {
+					"id": "threshold",
+					"value": ["1"]
+				}, {
+					"id": "interests",
+					"value": ["{\"values\":[]}"]
+				}, {
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"subsection_interests\"}]"]
+				}, {
+					"id": "nr_interests_to_store",
+					"value": ["7"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1466611228564,\"containsmatches\":\"matches\",\"ruletype\":\"interestcontent\",\"interests\":{\"name\":\"news_keywords\",\"selector\":\"var arr \u003d []; if (jQuery(\u0027meta[name\u003d\\\"news_keywords\\\"]\u0027).length \u003e 0) { var keywords \u003d jQuery(\u0027meta[name\u003d\\\"news_keywords\\\"]\u0027).attr(\u0027content\u0027).split(\u0027,\u0027); for (var i \u003d 0; i \u003c keywords.length; i++) { arr.push(jQuery(\u0027\u003cdiv\u003e\u0027 + keywords[i] + \u0027\u003c/div\u003e\u0027))} jQuery(arr)}\",\"previewUrl\":null},\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\",\"movie\"]}]}"]
+				}, {
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"subsection_interests\"}]"]
+				}, {
+					"id": "threshold",
+					"value": ["1"]
+				}, {
+					"id": "decay",
+					"value": ["90"]
+				}, {
+					"id": "nr_interests_to_store",
+					"value": ["7"]
+				}, {
+					"id": "interests",
+					"value": ["{\"values\":[]}"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "engagement_interest_ranking",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "engagement_interest_ranking",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "750ba3b2-65d0-4e7d-a627-b4580526ae89",
+			"name": "Politics scoring",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"politics_90\"}]"]
+				}, {
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1466613825531,\"containsmatches\":\"contains\",\"ruletype\":\"scorecontent\",\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[name\u003d\\\"news_keywords\\\"]\"},\"words\":[\"politics\"]}]}"]
+				}, {
+					"id": "decay",
+					"value": ["90"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "decay",
+					"value": ["90"]
+				}, {
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"politics_90\"}]"]
+				}, {
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1466613825531,\"containsmatches\":\"contains\",\"ruletype\":\"scorecontent\",\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[name\u003d\\\"news_keywords\\\"]\"},\"words\":[\"politics\"]}]}"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "engagement_score",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "engagement_score",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "6dcdd33f-ea87-470f-acef-dc3ed80b1487",
+			"name": "OB Test",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "listener_rules",
+					"value": ["{\"rules\":[{\"identifier\":1458564338005,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_impressions\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"#outbrain_widget_0 li.ob-dynamic-rec-container\"},\"values\":[\"1\"],\"words\":[\"pre_any\"],\"index\":0},{\"identifier\":1458564601214,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_clicks\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":[\"1\"],\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"#outbrain_widget_0 li.ob-dynamic-rec-container a\"},\"index\":1},{\"identifier\":1458565032380,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_titles_clicked\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":{\"selectedoption\":\"selector\",\"name\":\"OB title\",\"selector\":\"jQuery(\u0027\u003cdiv\u003e\u0027 + jQuery(clickContext).find(\\\".ob-rec-text\\\").attr(\\\"title\\\") + \u0027\u003c/div\u003e\u0027)\"},\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"#outbrain_widget_0 li.ob-dynamic-rec-container a\"},\"index\":2},{\"identifier\":1458565335201,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_terms_clicked\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":{\"selectedoption\":\"selector\",\"name\":\"OB title terms\",\"selector\":\"var arr \u003d []; var terms \u003d []; terms \u003d jQuery(clickContext).find(\\\".ob-rec-text\\\").attr(\\\"title\\\").replace(/,/g,\u0027\u0027).split(\\\" \\\"); for (var i \u003d 0; i \u003c terms.length; i++) { arr.push(jQuery(\u0027\u003cdiv\u003e\u0027 + terms[i] + \u0027\u003c/div\u003e\u0027))} jQuery(arr)\"},\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"#outbrain_widget_0 li.ob-dynamic-rec-container a\"},\"index\":3},{\"identifier\":1460414648369,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob2_title\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":{\"selectedoption\":\"selector\",\"name\":\"OB title\",\"selector\":\"jQuery(\u0027\u003cdiv\u003e\u0027 + jQuery(clickContext).find(\\\".ob-rec-text\\\").attr(\\\"title\\\") + \u0027\u003c/div\u003e\u0027)\"},\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"#outbrain_widget_0 li.ob-dynamic-rec-container a\"},\"index\":4},{\"identifier\":1460414650529,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"bc2_title\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":{\"selectedoption\":\"selector\",\"name\":\"BC title\",\"selector\":\"jQuery(clickContext).find(\\\".bc-rec-text\\\")\"},\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"li.bc-dynamic-rec-container a\"},\"index\":5},{\"identifier\":1465307721975,\"addset\":\"set_if_empty\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_test_bc_impressions2\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"selector\":\"pre_title\"},\"values\":[\"0\"],\"words\":[\"pre_any\"]},{\"identifier\":1465301721744,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_test_bc_impressions2\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"#bc_recommendations_widget\"},\"values\":[\"1\"],\"words\":[\"pre_any\"]},{\"identifier\":1465301723503,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_test_bc_clicks2\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":[\"1\"],\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"#bc_recommendations_widget a.bc-dynamic-rec-link\"}}]}"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "listener_rules",
+					"value": ["{\"rules\":[{\"identifier\":1458564338005,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_impressions\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"#outbrain_widget_0 li.ob-dynamic-rec-container\"},\"values\":[\"1\"],\"words\":[\"pre_any\"],\"index\":0},{\"identifier\":1458564601214,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_clicks\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":[\"1\"],\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"#outbrain_widget_0 li.ob-dynamic-rec-container a\"},\"index\":1},{\"identifier\":1458565032380,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_titles_clicked\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":{\"selectedoption\":\"selector\",\"name\":\"OB title\",\"selector\":\"jQuery(\u0027\u003cdiv\u003e\u0027 + jQuery(clickContext).find(\\\".ob-rec-text\\\").attr(\\\"title\\\") + \u0027\u003c/div\u003e\u0027)\"},\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"#outbrain_widget_0 li.ob-dynamic-rec-container a\"},\"index\":2},{\"identifier\":1458565335201,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_terms_clicked\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":{\"selectedoption\":\"selector\",\"name\":\"OB title terms\",\"selector\":\"var arr \u003d []; var terms \u003d []; terms \u003d jQuery(clickContext).find(\\\".ob-rec-text\\\").attr(\\\"title\\\").replace(/,/g,\u0027\u0027).split(\\\" \\\"); for (var i \u003d 0; i \u003c terms.length; i++) { arr.push(jQuery(\u0027\u003cdiv\u003e\u0027 + terms[i] + \u0027\u003c/div\u003e\u0027))} jQuery(arr)\"},\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"#outbrain_widget_0 li.ob-dynamic-rec-container a\"},\"index\":3},{\"identifier\":1460414648369,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob2_title\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":{\"selectedoption\":\"selector\",\"name\":\"OB title\",\"selector\":\"jQuery(\u0027\u003cdiv\u003e\u0027 + jQuery(clickContext).find(\\\".ob-rec-text\\\").attr(\\\"title\\\") + \u0027\u003c/div\u003e\u0027)\"},\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"#outbrain_widget_0 li.ob-dynamic-rec-container a\"},\"index\":4},{\"identifier\":1460414650529,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"bc2_title\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":{\"selectedoption\":\"selector\",\"name\":\"BC title\",\"selector\":\"jQuery(clickContext).find(\\\".bc-rec-text\\\")\"},\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"li.bc-dynamic-rec-container a\"},\"index\":5},{\"identifier\":1465307721975,\"addset\":\"set_if_empty\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_test_bc_impressions2\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"selector\":\"pre_title\"},\"values\":[\"0\"],\"words\":[\"pre_any\"]},{\"identifier\":1465301721744,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_test_bc_impressions2\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"#bc_recommendations_widget\"},\"values\":[\"1\"],\"words\":[\"pre_any\"]},{\"identifier\":1465301723503,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_test_bc_clicks2\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":[\"1\"],\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"#bc_recommendations_widget a.bc-dynamic-rec-link\"}}]}"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "enrichprofilebyvisitorbehavior",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "enrichprofilebyvisitorbehavior",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "ca17bcc6-af31-4240-acfe-02d24db0174c",
+			"name": "Articles read last 180",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "decay",
+					"value": ["180"]
+				}, {
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453746253129,\"containsmatches\":\"contains\",\"ruletype\":\"scorecontent\",\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\"]}]}"]
+				}, {
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"articles_read_180\"}]"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"articles_read_180\"}]"]
+				}, {
+					"id": "decay",
+					"value": ["180"]
+				}, {
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453746253129,\"containsmatches\":\"contains\",\"ruletype\":\"scorecontent\",\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\"]}]}"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "engagement_score",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "engagement_score",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "4f8e7ffb-6224-4a90-8d39-ac84ef49490b",
+			"name": "Articles read last 90",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"articles_read_90\"}]"]
+				}, {
+					"id": "decay",
+					"value": ["90"]
+				}, {
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453746253129,\"containsmatches\":\"contains\",\"ruletype\":\"scorecontent\",\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\"]}]}"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453746253129,\"containsmatches\":\"contains\",\"ruletype\":\"scorecontent\",\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\"]}]}"]
+				}, {
+					"id": "decay",
+					"value": ["90"]
+				}, {
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"articles_read_90\"}]"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "engagement_score",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "engagement_score",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "b715ef1b-c941-428c-a4b7-9f2278253994",
+			"name": "News_keywords",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1461151348606,\"containsmatches\":\"contains\",\"ruletype\":\"interestcontent\",\"interests\":{\"name\":\"news_keywords\",\"selector\":\"var arr \u003d []; if (jQuery(\u0027meta[name\u003d\\\"news_keywords\\\"]\u0027).length \u003e 0) { var keywords \u003d jQuery(\u0027meta[name\u003d\\\"news_keywords\\\"]\u0027).attr(\u0027content\u0027).split(\u0027,\u0027); for (var i \u003d 0; i \u003c keywords.length; i++) { arr.push(jQuery(\u0027\u003cdiv\u003e\u0027 + keywords[i] + \u0027\u003c/div\u003e\u0027))} jQuery(arr)}\",\"previewUrl\":null},\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\",\"movie\"]}]}"]
+				}, {
+					"id": "interests",
+					"value": ["{\"values\":[]}"]
+				}, {
+					"id": "decay",
+					"value": ["180"]
+				}, {
+					"id": "nr_interests_to_store",
+					"value": ["7"]
+				}, {
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"subsection_interests_news_keywords\"}]"]
+				}, {
+					"id": "threshold",
+					"value": ["3"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "nr_interests_to_store",
+					"value": ["7"]
+				}, {
+					"id": "decay",
+					"value": ["180"]
+				}, {
+					"id": "interests",
+					"value": ["{\"values\":[]}"]
+				}, {
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"subsection_interests_news_keywords\"}]"]
+				}, {
+					"id": "threshold",
+					"value": ["3"]
+				}, {
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1461151348606,\"containsmatches\":\"contains\",\"ruletype\":\"interestcontent\",\"interests\":{\"name\":\"news_keywords\",\"selector\":\"var arr \u003d []; if (jQuery(\u0027meta[name\u003d\\\"news_keywords\\\"]\u0027).length \u003e 0) { var keywords \u003d jQuery(\u0027meta[name\u003d\\\"news_keywords\\\"]\u0027).attr(\u0027content\u0027).split(\u0027,\u0027); for (var i \u003d 0; i \u003c keywords.length; i++) { arr.push(jQuery(\u0027\u003cdiv\u003e\u0027 + keywords[i] + \u0027\u003c/div\u003e\u0027))} jQuery(arr)}\",\"previewUrl\":null},\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\",\"movie\"]}]}"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "engagement_interest_ranking",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "engagement_interest_ranking",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "0cc0ca82-a504-421c-ad0b-d47838b1cb28",
+			"name": "Ad block detection",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "property",
+					"value": ["adblock_detected"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "property",
+					"value": ["adblock_detected"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "listener_adblock",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "listener_adblock",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "b6b96ba0-45e1-43d7-947c-918ef5095b0a",
+			"name": "IP listener",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "property",
+					"value": ["behaviors"]
+				}, {
+					"id": "ip_range_rules",
+					"value": ["{\"rules\":[{\"identifier\":1467913096523,\"lowest\":\"192.251.219.11\",\"highest\":\"192.251.219.11\",\"addset\":\"add\",\"values\":[\"visited from Seattle Times network\"]}]}"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "ip_range_rules",
+					"value": ["{\"rules\":[{\"identifier\":1467913096523,\"lowest\":\"192.251.219.11\",\"highest\":\"192.251.219.11\",\"addset\":\"add\",\"values\":[\"visited from Seattle Times network\"]}]}"]
+				}, {
+					"id": "property",
+					"value": ["behaviors"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "iplistenerinteractiontype",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "iplistenerinteractiontype",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "f4e3b1ed-2127-4508-b14b-8678deb3d1de",
+			"name": "General Web Behaviors",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "listener_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453495292126,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"article_sections\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"values\":{\"selectedoption\":\"selector\",\"selector\":\"meta[property\u003d\\\"article:section\\\"]\"},\"words\":[\"article\"],\"index\":0},{\"identifier\":1453836413892,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"sections_read\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"values\":{\"selectedoption\":\"variable\",\"variable\":\"dataLayer[0].section_tier1\"},\"words\":[\"article\"],\"index\":1},{\"identifier\":1453495597611,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"num_view_comments\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":[\"1\"],\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"a#showcomments\",\"previewUrl\":\"http://www.seattletimes.com/entertainment/theater/your-jaw-drops-watching-them-peking-acrobats-tumble-into-seattle-on-jan-23/\"},\"index\":2},{\"identifier\":1453745983029,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"number_of_shares\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":[\"1\"],\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\".social-share\"},\"index\":3},{\"identifier\":1453746184987,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"articles_read\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"values\":[\"1\"],\"words\":[\"article\"],\"index\":4},{\"identifier\":1453746680878,\"addset\":\"set_if_empty\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"first_utm_campaign\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"parameter\",\"parameter\":\"utm_campaign\"},\"words\":[\"pre_any\"],\"index\":5},{\"identifier\":1453746699145,\"addset\":\"set_if_empty\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"first_utm_content\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"parameter\",\"parameter\":\"utm_content\"},\"words\":[\"pre_any\"],\"index\":6},{\"identifier\":1453746714313,\"addset\":\"set_if_empty\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"first_utm_medium\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"parameter\",\"parameter\":\"utm_medium\"},\"words\":[\"pre_any\"],\"index\":7},{\"identifier\":1453746725796,\"addset\":\"set_if_empty\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"first_utm_source\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"parameter\",\"parameter\":\"utm_source\"},\"words\":[\"pre_any\"],\"index\":8},{\"identifier\":1453746735194,\"addset\":\"set_if_empty\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"first_utm_term\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"parameter\",\"parameter\":\"utm_term\"},\"words\":[\"pre_any\"],\"index\":9},{\"identifier\":1458837546111,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_inbound\"}],\"ruletype\":\"scoreurl\",\"url\":\"referrer\",\"values\":{\"selectedoption\":\"regexp\",\"regexp\":\"://([^#?]+)\"},\"words\":[\"traffic.outbrain.com/network/redir\"]},{\"identifier\":1459306021209,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_subsections_clicked\"}],\"ruletype\":\"scoreurl\",\"url\":\"referrer\",\"values\":{\"selectedoption\":\"selector\",\"selector\":\"meta[property\u003d\\\"article:section\\\"]\"},\"words\":[\"traffic.outbrain.com/network/redir\"]},{\"identifier\":1464089942040,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"st_account_type\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"variable\",\"variable\":\"window.SEATIMESCO.singleSignOn.info.accountType\"},\"words\":[\"pre_any\"]},{\"identifier\":1464090019663,\"addset\":\"set\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"st_account_type_mr\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"variable\",\"variable\":\"window.SEATIMESCO.singleSignOn.info.accountType\"},\"words\":[\"pre_any\"]},{\"identifier\":1465243622132,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"behaviors\"}],\"ruletype\":\"scoreurl\",\"url\":\"url\",\"values\":[\"has tested\"],\"words\":[\"status\u003distesting\"]},{\"identifier\":1467826254639,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"dev_status\"}],\"ruletype\":\"scoreurl\",\"url\":\"url\",\"values\":[\"developer\"],\"words\":[\"status\u003dsegmented_messaging\"]}]}"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "listener_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453495292126,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"article_sections\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"values\":{\"selectedoption\":\"selector\",\"selector\":\"meta[property\u003d\\\"article:section\\\"]\"},\"words\":[\"article\"],\"index\":0},{\"identifier\":1453836413892,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"sections_read\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"values\":{\"selectedoption\":\"variable\",\"variable\":\"dataLayer[0].section_tier1\"},\"words\":[\"article\"],\"index\":1},{\"identifier\":1453495597611,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"num_view_comments\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":[\"1\"],\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\"a#showcomments\",\"previewUrl\":\"http://www.seattletimes.com/entertainment/theater/your-jaw-drops-watching-them-peking-acrobats-tumble-into-seattle-on-jan-23/\"},\"index\":2},{\"identifier\":1453745983029,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"number_of_shares\"}],\"ruletype\":\"scoreclick\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_any\"},\"values\":[\"1\"],\"words\":[\"pre_any\"],\"clickarea\":{\"name\":\"\",\"selector\":\".social-share\"},\"index\":3},{\"identifier\":1453746184987,\"addset\":\"merge\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"articles_read\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"values\":[\"1\"],\"words\":[\"article\"],\"index\":4},{\"identifier\":1453746680878,\"addset\":\"set_if_empty\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"first_utm_campaign\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"parameter\",\"parameter\":\"utm_campaign\"},\"words\":[\"pre_any\"],\"index\":5},{\"identifier\":1453746699145,\"addset\":\"set_if_empty\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"first_utm_content\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"parameter\",\"parameter\":\"utm_content\"},\"words\":[\"pre_any\"],\"index\":6},{\"identifier\":1453746714313,\"addset\":\"set_if_empty\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"first_utm_medium\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"parameter\",\"parameter\":\"utm_medium\"},\"words\":[\"pre_any\"],\"index\":7},{\"identifier\":1453746725796,\"addset\":\"set_if_empty\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"first_utm_source\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"parameter\",\"parameter\":\"utm_source\"},\"words\":[\"pre_any\"],\"index\":8},{\"identifier\":1453746735194,\"addset\":\"set_if_empty\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"first_utm_term\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"parameter\",\"parameter\":\"utm_term\"},\"words\":[\"pre_any\"],\"index\":9},{\"identifier\":1458837546111,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_inbound\"}],\"ruletype\":\"scoreurl\",\"url\":\"referrer\",\"values\":{\"selectedoption\":\"regexp\",\"regexp\":\"://([^#?]+)\"},\"words\":[\"traffic.outbrain.com/network/redir\"]},{\"identifier\":1459306021209,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"ob_subsections_clicked\"}],\"ruletype\":\"scoreurl\",\"url\":\"referrer\",\"values\":{\"selectedoption\":\"selector\",\"selector\":\"meta[property\u003d\\\"article:section\\\"]\"},\"words\":[\"traffic.outbrain.com/network/redir\"]},{\"identifier\":1464089942040,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"st_account_type\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"variable\",\"variable\":\"window.SEATIMESCO.singleSignOn.info.accountType\"},\"words\":[\"pre_any\"]},{\"identifier\":1464090019663,\"addset\":\"set\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"st_account_type_mr\"}],\"ruletype\":\"scorecontent\",\"contentarea\":{\"name\":\"\",\"selector\":\"pre_header\"},\"values\":{\"selectedoption\":\"variable\",\"variable\":\"window.SEATIMESCO.singleSignOn.info.accountType\"},\"words\":[\"pre_any\"]},{\"identifier\":1465243622132,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"behaviors\"}],\"ruletype\":\"scoreurl\",\"url\":\"url\",\"values\":[\"has tested\"],\"words\":[\"status\u003distesting\"]},{\"identifier\":1467826254639,\"addset\":\"add\",\"containsmatches\":\"contains\",\"profileproperty\":[{\"profileproperty\":\"dev_status\"}],\"ruletype\":\"scoreurl\",\"url\":\"url\",\"values\":[\"developer\"],\"words\":[\"status\u003dsegmented_messaging\"]}]}"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "enrichprofilebyvisitorbehavior",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "enrichprofilebyvisitorbehavior",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "d869a146-d372-48c6-a065-296eea37cc08",
+			"name": "Articles read last 30",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453746253129,\"containsmatches\":\"contains\",\"ruletype\":\"scorecontent\",\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\"]}]}"]
+				}, {
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"articles_read_30\"}]"]
+				}, {
+					"id": "decay",
+					"value": ["30"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"articles_read_30\"}]"]
+				}, {
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453746253129,\"containsmatches\":\"contains\",\"ruletype\":\"scorecontent\",\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\"]}]}"]
+				}, {
+					"id": "decay",
+					"value": ["30"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "engagement_score",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "engagement_score",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "c0ffab0c-7620-431a-af51-0a5a634a56db",
+			"name": "Articles read last 60",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453746253129,\"containsmatches\":\"contains\",\"ruletype\":\"scorecontent\",\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\"]}]}"]
+				}, {
+					"id": "decay",
+					"value": ["60"]
+				}, {
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"articles_read_60\"}]"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453746253129,\"containsmatches\":\"contains\",\"ruletype\":\"scorecontent\",\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\"]}]}"]
+				}, {
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"articles_read_60\"}]"]
+				}, {
+					"id": "decay",
+					"value": ["60"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "engagement_score",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "engagement_score",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "43ae8eae-8fd8-4cbb-b964-13772011c524",
+			"name": "Top hours listener",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "nr_interests_to_store",
+					"value": ["3"]
+				}, {
+					"id": "decay",
+					"value": ["90"]
+				}, {
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"visit_time\"}]"]
+				}, {
+					"id": "threshold",
+					"value": ["2"]
+				}, {
+					"id": "profileproperties",
+					"value": ["visit_time"]
+				}, {
+					"id": "locale",
+					"value": ["en-us"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"visit_time\"}]"]
+				}, {
+					"id": "nr_interests_to_store",
+					"value": ["3"]
+				}, {
+					"id": "decay",
+					"value": ["90"]
+				}, {
+					"id": "locale",
+					"value": ["en-us"]
+				}, {
+					"id": "threshold",
+					"value": ["2"]
+				}, {
+					"id": "profileproperties",
+					"value": ["visit_time"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "listener_preferred_hour",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "listener_preferred_hour",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "4a24fed3-7bc1-475a-bbf3-f1ddbca21cea",
+			"name": "Content recommendations",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "property",
+					"value": ["subsection_interests"]
+				}, {
+					"id": "exclusions",
+					"value": ["[\"/nwshowcase/\",\"staging.seattletimes.com\",\"/mariners/pregame\",\"/mariners/mariners-pregame\",\"www.seattletimes.com/nation-world/nothing-to-recover-after-man-falls-into-hot-spring-at-yellowstone/\",\"/entertainment/theater/new-loop-system-makes-all-of-seattle-rep-hearing-accessible/\",\"/sports/mariners/mariners01/\",\"/entertainment/visual-arts/seattle-art-collector-vasiliki-dwyer-donates-23-works-to-tacoma-art-museum/\",\"www.seattletimes.com/nation-world/oddities/naked-man-in-river-photobombs-high-school-seniors-photo-shoot/\"]"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "exclusions",
+					"value": ["[\"/nwshowcase/\",\"staging.seattletimes.com\",\"/mariners/pregame\",\"/mariners/mariners-pregame\",\"www.seattletimes.com/nation-world/nothing-to-recover-after-man-falls-into-hot-spring-at-yellowstone/\",\"/entertainment/theater/new-loop-system-makes-all-of-seattle-rep-hearing-accessible/\",\"/sports/mariners/mariners01/\",\"/entertainment/visual-arts/seattle-art-collector-vasiliki-dwyer-donates-23-works-to-tacoma-art-museum/\",\"www.seattletimes.com/nation-world/oddities/naked-man-in-river-photobombs-high-school-seniors-photo-shoot/\"]"]
+				}, {
+					"id": "property",
+					"value": ["subsection_interests"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "listener_contentrecommendations",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "listener_contentrecommendations",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "c58997a8-faf1-4ef9-8235-8c16800528a5",
+			"name": "Geolocation listener",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "property",
+					"value": ["geo_metro_code", "geo_city_name", "geo_country_iso_code", "geo_country_name", "geo_continent_code", "geo_continent_name", "geo_subdivision_1_iso_code", "geo_subdivision_1_name", "geo_subdivision_2_iso_code", "geo_subdivision_2_name", "geo_time_zone"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "property",
+					"value": ["geo_metro_code", "geo_city_name", "geo_country_iso_code", "geo_country_name", "geo_continent_code", "geo_continent_name", "geo_subdivision_1_iso_code", "geo_subdivision_1_name", "geo_subdivision_2_iso_code", "geo_subdivision_2_name", "geo_time_zone"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "listener_geolocation",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "listener_geolocation",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "b018a02f-60fa-4cd4-b104-c6ba343551ed",
+			"name": "Articles read last 7",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"articles_read_7\"}]"]
+				}, {
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453746253129,\"containsmatches\":\"contains\",\"ruletype\":\"scorecontent\",\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\"]}]}"]
+				}, {
+					"id": "decay",
+					"value": ["7"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"articles_read_7\"}]"]
+				}, {
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453746253129,\"containsmatches\":\"contains\",\"ruletype\":\"scorecontent\",\"points\":1,\"contentarea\":{\"name\":\"\",\"selector\":\"meta[property\u003d\\\"og:type\\\"]\"},\"words\":[\"article\"]}]}"]
+				}, {
+					"id": "decay",
+					"value": ["7"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "engagement_score",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "engagement_score",
+			"myPluginType": "LISTENER"
+		}, {
+			"id": "27d4c246-8306-491a-a115-8b45aedb8fb0",
+			"name": "Section interests",
+			"parameters": [{
+				"locale": "en_US",
+				"parameter": [{
+					"id": "interests",
+					"value": ["{\"values\":[]}"]
+				}, {
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"section_interests\"}]"]
+				}, {
+					"id": "decay",
+					"value": ["90"]
+				}, {
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453821338801,\"containsmatches\":\"contains\",\"ruletype\":\"interesturl\",\"interests\":{\"name\":\"section_tier1\",\"selector\":\"jQuery(\u0027\u003cdiv\u003e\u0027 + ((typeof dataLayer !\u003d\u003d \u0027undefined\u0027 \u0026\u0026 dataLayer !\u003d\u003d null) \u0026\u0026 (typeof dataLayer[0].section_tier1 !\u003d\u003d \u0027undefined\u0027 \u0026\u0026 dataLayer[0].section_tier1 !\u003d\u003d null) ? dataLayer[0].section_tier1 : \u0027\u0027) + \u0027\u003c/div\u003e\u0027)\",\"previewUrl\":null},\"url\":\"url\",\"words\":[\"seattletimes\"],\"points\":1}]}"]
+				}, {
+					"id": "nr_interests_to_store",
+					"value": ["5"]
+				}, {
+					"id": "threshold",
+					"value": ["1"]
+				}]
+			}, {
+				"locale": "nl_NL",
+				"parameter": [{
+					"id": "decay",
+					"value": ["90"]
+				}, {
+					"id": "nr_interests_to_store",
+					"value": ["5"]
+				}, {
+					"id": "interests",
+					"value": ["{\"values\":[]}"]
+				}, {
+					"id": "engagement_rules",
+					"value": ["{\"rules\":[{\"identifier\":1453821338801,\"containsmatches\":\"contains\",\"ruletype\":\"interesturl\",\"interests\":{\"name\":\"section_tier1\",\"selector\":\"jQuery(\u0027\u003cdiv\u003e\u0027 + ((typeof dataLayer !\u003d\u003d \u0027undefined\u0027 \u0026\u0026 dataLayer !\u003d\u003d null) \u0026\u0026 (typeof dataLayer[0].section_tier1 !\u003d\u003d \u0027undefined\u0027 \u0026\u0026 dataLayer[0].section_tier1 !\u003d\u003d null) ? dataLayer[0].section_tier1 : \u0027\u0027) + \u0027\u003c/div\u003e\u0027)\",\"previewUrl\":null},\"url\":\"url\",\"words\":[\"seattletimes\"],\"points\":1}]}"]
+				}, {
+					"id": "property",
+					"value": ["[{\"profileproperty\":\"section_interests\"}]"]
+				}, {
+					"id": "threshold",
+					"value": ["1"]
+				}]
+			}],
+			"defaultLocale": "nl_NL",
+			"interactionType": {
+				"myId": "engagement_interest_ranking",
+				"myType": "LISTENER"
+			},
+			"executed": true,
+			"alternativePositions": [],
+			"myIsOverlay": false,
+			"myInteractionTypeId": "engagement_interest_ranking",
+			"myPluginType": "LISTENER"
+		}],
+		"interactionnames": [{
+			"name": "[BC-80] Recs - New - No sports",
+			"variantName": "BlueConic - New - all sticky"
+		}, {
+			"name": "[PROD] Recs - Homepage - New",
+			"variantName": "Homepage recs - New"
+		}],
+		"segments": [{
+			"name": "Not NW by DMA or geo unknown",
+			"id": "3e879293-5d7f-4b32-855c-8a7bf0eb567b"
+		}, {
+			"name": "New profiles (\u003c4 views or no subsection interests)",
+			"id": "e0798895-3501-4755-ac35-d5a2215a26bf"
+		}, {
+			"name": "out of DMA (819)",
+			"id": "740e80f6-4945-40e9-80a2-325c10915b9e"
+		}, {
+			"name": "A",
+			"id": "0a8482be-b088-4545-87ff-49bbd0d78a21"
+		}, {
+			"name": "Home page entry",
+			"id": "fdc998a0-2ae5-4e0f-8a58-903357bd2f78"
+		}, {
+			"name": "All Visitors",
+			"id": "7b5a030e-b844-45b6-9c49-551be3c37992"
+		}, {
+			"name": "OB50 New profiles (\u003c4 views or no subsection interests)",
+			"id": "bafd4866-9391-4af0-96a5-050e0dbcd763"
+		}]
+	},
+	"profileId": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx",
+	"id": "1476038338469",
+	"error": ""
+}]

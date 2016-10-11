@@ -1,0 +1,43 @@
+[{
+	"result": {
+		"id": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx",
+		"properties": {
+			"first_utm_term": [],
+			"first_utm_content": [],
+			"lastvisitdate": ["1475180583136"],
+			"articles_read_90": ["0"],
+			"resolution": ["1440x900", "1920x1200"],
+			"subsection_interests_news_keywords_index": ["0"],
+			"visits": ["1"],
+			"articles_read_60": ["0"],
+			"number_of_shares": [],
+			"clickcount": ["1"],
+			"articles_read": [],
+			"visitedsites": ["www.seattletimes.com"],
+			"adblock_detected": ["no"],
+			"first_utm_campaign": [],
+			"section_interests_index": ["1"],
+			"hostentrypage": ["{\"www.seattletimes.com\" : {\"entrypage\" : \"http://www.seattletimes.com/\"}}"],
+			"num_view_comments": [],
+			"first_utm_medium": [],
+			"subsection_interests_index": ["0"],
+			"averageTime": [],
+			"ob_clicks": [],
+			"lastreferreraverage": [],
+			"first_utm_source": [],
+			"articles_read_30": ["0"],
+			"hostaveragetime": ["{\"www.seattletimes.com\" : {\"startdate\" : 1475180583136, \"enddate\" : 1475180583136, \"averageTime\" : 0, \"visits\" : 0}}"],
+			"ob_test_bc_clicks2": [],
+			"entrypage": ["http://www.seattletimes.com/"],
+			"ob_test_bc_impressions2": ["1"],
+			"articles_read_7": ["0"],
+			"politics_90": ["0"],
+			"articles_read_180": ["0"],
+			"visitclicks": ["1"],
+			"ob_impressions": []
+		}
+	},
+	"profileId": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx",
+	"id": "1476038340940",
+	"error": ""
+}]

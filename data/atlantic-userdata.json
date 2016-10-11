@@ -1,0 +1,21 @@
+{
+	"status": "200",
+	"body": {
+		"code": "dnt",
+		"geo": {
+			"domain": "comcast.net",
+			"dma": "506",
+			"zip": "02139",
+			"longitude": "-71.1111",
+			"latitude": "42.111",
+			"country": "us",
+			"region": "ma"
+		},
+		"technographics": {
+			"browser": "Chrome",
+			"manufacturer": "Apple Inc.",
+			"device": "Computer",
+			"os": "Mac OS X"
+		}
+	}
+}

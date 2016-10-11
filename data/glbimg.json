@@ -1,0 +1,144 @@
+{
+	"common": {
+		"desktop": {
+			"js": [{
+				"url": "js/common/common-f671fa17.min.js",
+				"key": "fn-common-js"
+			}]
+		},
+		"mobile": {
+			"js": [{
+				"url": "js/common/common-f671fa17.min.js",
+				"key": "fn-common-js"
+			}],
+			"sprites": [{
+				"url": "sprites/sprite-a8b542c3.min.svg",
+				"key": "fn-regua-navegacao-svg",
+				"success": "fnSpriteSvgSuccess"
+			}]
+		}
+	},
+	"app": {
+		"mobile": {
+			"js": [{
+				"url": "js/app/master-app-init-636d369e.min.js",
+				"key": "fn-master-app-js"
+			}]
+		}
+	},
+	"header": {
+		"desktop": {
+			"css": [{
+				"url": "css/header/header-navegacao-163855d3.min.css",
+				"key": "fn-header-navegacao-css"
+			}],
+			"js": [{
+				"url": "js/header/header-navegacao-2ea6e5c3.min.js",
+				"key": "fn-header-navegacao-js"
+			}]
+		},
+		"mobile": {
+			"css": [{
+				"url": "css/header/header-navegacao-163855d3.min.css",
+				"key": "fn-header-navegacao-css"
+			}],
+			"js": [{
+				"url": "js/header/header-navegacao-2ea6e5c3.min.js",
+				"key": "fn-header-navegacao-js"
+			}]
+		}
+	},
+	"regua": {
+		"mobile": {
+			"css": [{
+				"url": "css/regua/regua-navegacao-6002928f.min.css",
+				"key": "fn-regua-navegacao-css"
+			}],
+			"js": [{
+				"url": "js/regua/regua-navegacao-acdd5e7c.min.js",
+				"key": "fn-regua-navegacao-js"
+			}]
+		}
+	},
+	"menu": {
+		"desktop": {
+			"css": [{
+				"url": "css/menu/menu-web-9010eb9a.min.css",
+				"key": "fn-menu-web-css"
+			}],
+			"js": [{
+				"url": "js/menu/menu-web-b057b29c.min.js",
+				"key": "fn-menu-web-js"
+			}]
+		},
+		"mobile": {
+			"css": [{
+				"url": "css/menu/menu-web-9010eb9a.min.css",
+				"key": "fn-menu-web-css"
+			}],
+			"js": [{
+				"url": "js/menu/menu-web-b057b29c.min.js",
+				"key": "fn-menu-web-js"
+			}]
+		}
+	},
+	"products": {
+		"www.globo.com": {
+			"name": "home",
+			"label": "globo.com",
+			"home": "//www.globo.com/",
+			"color": "#0669de",
+			"menuOrder": 10
+		},
+		"g1.globo.com": {
+			"name": "g1",
+			"label": "g1",
+			"home": "//g1.globo.com/",
+			"color": "#c4170c",
+			"menuOrder": 20
+		},
+		"globoesporte.globo.com": {
+			"name": "ge",
+			"label": "globoesporte.com",
+			"home": "//globoesporte.globo.com/",
+			"color": "#3B9C00",
+			"menuOrder": 30
+		},
+		"gshow.globo.com": {
+			"name": "gshow",
+			"label": "gshow",
+			"home": "//gshow.globo.com/",
+			"color": "#EC7D00",
+			"menuOrder": 40
+		},
+		"famosos.globo.com": {
+			"name": "famosos",
+			"label": "famosos",
+			"home": "//famosos.globo.com/",
+			"color": "#FF7F00",
+			"menuOrder": 50
+		},
+		"www.techtudo.com.br": {
+			"name": "techtudo",
+			"label": "techtudo",
+			"home": "//www.techtudo.com.br/",
+			"color": "#FD8A00",
+			"menuOrder": 60
+		},
+		"globoplay.globo.com": {
+			"name": "globoplay",
+			"label": "globo play",
+			"home": "//globoplay.globo.com/",
+			"color": "#FF0048",
+			"menuOrder": 70
+		},
+		"globosatplay.globo.com": {
+			"name": "globosatplay",
+			"label": "globosat play",
+			"home": "//globosatplay.globo.com/",
+			"color": "#4576a1",
+			"menuOrder": 80
+		}
+	},
+	"version": "1.3.1"
+}

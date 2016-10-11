@@ -1,0 +1,51 @@
+[{
+	"ordering": 22,
+	"default": false,
+	"cor": "#FF7F00",
+	"name": "Cheias de Charme",
+	"url": "http://gshow.globo.com/novelas/cheias-de-charme-vale-a-pena-ver-de-novo/",
+	"logo": "http://s2.glbimg.com/Praikpu-zgY_2kw_3fE5HvkDzU8=/top/smart/filters:strip_icc()/s2.glbimg.com/M5gtFqDC7M5S9VVIaMXyBdKDNKA=/0x0:36x20/36x20/s.glbimg.com/en/ho/f/original/2016/09/19/logo-cheias-de-charme-36x20.jpg",
+	"slug": "cheias-de-charme",
+	"url_feed": "http://gshow.globo.com/novelas/cheias-de-charme-vale-a-pena-ver-de-novo/rss/",
+	"logo_tv": "http://s2.glbimg.com/VGBUZ_OVsQNwl5hosw1nIdbRriI=/top/smart/filters:strip_icc()/s2.glbimg.com/CH6Zpwzfi-jzDImGExr7rGp-hP0=/0x0:45x30/45x30/s.glbimg.com/en/ho/f/original/2016/09/19/logo-cheias-de-charme-45x30.jpg"
+}, {
+	"ordering": 30,
+	"default": false,
+	"cor": "#E12559",
+	"name": "Malha\u00e7\u00e3o",
+	"url": "http://gshow.globo.com/novelas/malhacao/2016/",
+	"logo": "http://s2.glbimg.com/V74dq740E0Zbr-MUNRo3wL8j3YU=/top/smart/filters:strip_icc()/s2.glbimg.com/CIeW9vSUuTduS01c6HGbbFg4pqM=/0x0:36x20/36x20/s.glbimg.com/en/ho/f/original/2016/08/23/36x20_malhacao.png",
+	"slug": "malhacao",
+	"url_feed": "http://gshow.globo.com/novelas/malhacao/2016/rss/",
+	"logo_tv": "http://s2.glbimg.com/kKPrn_-_tdh5kDccwvRs1xhkeUk=/top/smart/filters:strip_icc()/s2.glbimg.com/6yNSMCiS8AeyVAy8LrlzMyaSuk4=/0x0:45x30/45x30/s.glbimg.com/en/ho/f/original/2016/08/23/45x30_malhacao.png"
+}, {
+	"ordering": 35,
+	"default": false,
+	"cor": "#FF7F00",
+	"name": "Sol Nascente",
+	"url": "http://gshow.globo.com/novelas/sol-nascente/",
+	"logo": "http://s2.glbimg.com/NccazeavyEZK0WVGNWg5he7jMks=/top/smart/filters:strip_icc()/s2.glbimg.com/F5o0QOwCgmjueUKY8lV_wl9t9KM=/0x0:36x20/36x20/s.glbimg.com/en/ho/f/original/2016/08/29/sol-nascente-36x20_002.jpg",
+	"slug": "sol-nascente",
+	"url_feed": "http://gshow.globo.com/novelas/sol-nascente/rss/",
+	"logo_tv": "http://s2.glbimg.com/S2cyGHmAAqB3HscEmfitutHh01w=/top/smart/filters:strip_icc()/s2.glbimg.com/0e8abxzxPTKx6u-uJcvVjZdXJE4=/0x0:45x30/45x30/s.glbimg.com/en/ho/f/original/2016/08/29/sol-nascente-45x30_002.jpg"
+}, {
+	"ordering": 49,
+	"default": false,
+	"cor": "#FF7F00",
+	"name": "Haja Cora\u00e7\u00e3o",
+	"url": "http://gshow.globo.com/novelas/haja-coracao/",
+	"logo": "http://s2.glbimg.com/ZFFCeADmGptCcJBT7drTQ3Enk6I=/top/smart/filters:strip_icc()/s2.glbimg.com/HRW8T06jGi4cgRpv97C4WDt_URQ=/0x0:36x20/36x20/s.glbimg.com/en/ho/f/original/2016/05/31/haja-coracao-38x20.jpg",
+	"slug": "haja-coracao",
+	"url_feed": "http://gshow.globo.com/novelas/haja-coracao/rss/",
+	"logo_tv": "http://s2.glbimg.com/zX9KWvysX5ENmUANLe81b2rf8uw=/top/smart/filters:strip_icc()/s2.glbimg.com/FKR4hyPQZA52tsuUL0CyXsSKh6s=/0x0:45x30/45x30/s.glbimg.com/en/ho/f/original/2016/05/31/haja-coracao-45x30.jpg"
+}, {
+	"ordering": 55,
+	"default": true,
+	"cor": "#FF7F00",
+	"name": "A Lei do Amor",
+	"url": "http://gshow.globo.com/novelas/a-lei-do-amor/",
+	"logo": "http://s2.glbimg.com/Y_6Xr-MxVVFTAGAUoLh8fWicRQk=/top/smart/filters:strip_icc()/s2.glbimg.com/GJkYvE3EOi3zOEP59gGGEfFPNq8=/0x0:36x20/36x20/s.glbimg.com/en/ho/f/original/2016/10/03/a-lei-do-amor_36x20.jpg",
+	"slug": "a-lei-do-amor",
+	"url_feed": "http://gshow.globo.com/novelas/a-lei-do-amor/rss/",
+	"logo_tv": "http://s2.glbimg.com/SeoaIVMh1PH8CYEjL3N9n7R4lo0=/top/smart/filters:strip_icc()/s2.glbimg.com/UA9wrB-zTr8SzqKNziHyWjwh5Q8=/0x0:45x30/45x30/s.glbimg.com/en/ho/f/original/2016/10/03/a-lei-do-amor_45x30.jpg"
+}]

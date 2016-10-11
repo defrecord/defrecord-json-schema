@@ -1,0 +1,407 @@
+{
+	"[:Public:]": {
+		"$0": "Public"
+	},
+	"error": {
+		"err_please_reload": {
+			"$0": "Error! Please reload the page."
+		}
+	},
+	"loading": {
+		"error": {
+			"$0": "Loading error"
+		},
+		"failed_retry": {
+			"$0": "Loading failed! Click here to retry."
+		},
+		"in_progress": {
+			"$0": "In progress..."
+		},
+		"loading": {
+			"$0": "Loading..."
+		}
+	},
+	"login_form": {
+		"add_videos_to_favs": {
+			"$0": "Add videos to your favorites"
+		},
+		"commenting": {
+			"$0": "Commenting"
+		},
+		"confirm_password": {
+			"$0": "Confirm password"
+		},
+		"create_account": {
+			"$0": "Create account"
+		},
+		"create_prof_page_make_friends": {
+			"$0": "Create your profile page and make some new friends"
+		},
+		"creating_account": {
+			"$0": "Creating account..."
+		},
+		"creating_account_failed": {
+			"$0": "Creating account failed..."
+		},
+		"creating_account_failed_retry": {
+			"$0": "Creating account failed... Please close this message and try again."
+		},
+		"forgot_password": {
+			"$0": "Forgot login or password ?"
+		},
+		"loggin_in": {
+			"$0": "Logging in progress..."
+		},
+		"login": {
+			"$0": "Login"
+		},
+		"login_failed": {
+			"$0": "Logging in failed..."
+		},
+		"login_failed_retry": {
+			"$0": "Logging in failed... Please close this message and try again."
+		},
+		"not_yet_member_create_account": {
+			"$0": "Not yet a xvideos member? Here is what you can do with a FREE account:"
+		},
+		"profile_name": {
+			"$0": "Profile name"
+		},
+		"signup_now_for_free": {
+			"$0": "Sign Up Now For Free"
+		},
+		"upload_videos": {
+			"$0": "Upload videos"
+		},
+		"we_dont_send_emails": {
+			"$0": "Please note that we do not run any mailing list so you will not receive any email from us unless there is a good reason to."
+		},
+		"your_login": {
+			"$0": "Your login (email)"
+		},
+		"your_password": {
+			"$0": "Your password"
+		}
+	},
+	"misc": {
+		"actions": {
+			"remove": {
+				"$0": "Remove"
+			}
+		},
+		"are_you_sure": {
+			"$0": "Are you sure?"
+		},
+		"confirmed": {
+			"$0": "Confirmed"
+		},
+		"error": {
+			"$0": "Error"
+		},
+		"error_please_retry": {
+			"$0": "Error! Please retry..."
+		},
+		"here": {
+			"$0": "HERE"
+		},
+		"ignored": {
+			"$0": "Ignored"
+		},
+		"next": {
+			"$0": "Next"
+		},
+		"please_retry": {
+			"$0": "Please retry..."
+		},
+		"previous": {
+			"$0": "Previous"
+		}
+	},
+	"profile": {
+		"allow": {
+			"friends": {
+				"$0": "Only friends"
+			},
+			"nobody": {
+				"$0": "Nobody"
+			},
+			"public": {
+				"$0": "Public"
+			},
+			"registered": {
+				"$0": "Registered users"
+			}
+		},
+		"captcha": {
+			"ip_not_trusted": {
+				"$0": "We don&#039;t trust your IP. Please check the box below to continue:"
+			},
+			"verifiy_to_trust": {
+				"$0": "If you want us to trust your account, please %verif_link_start%verify your profile%verif_link_end%."
+			}
+		},
+		"comments": {
+			"must_be_logged_to_comment": {
+				"$0": "You must be logged in to comment %username%"
+			}
+		},
+		"friends": {
+			"request_pending": {
+				"$0": "Friend request pending..."
+			},
+			"you_asked_friends": {
+				"$0": "You asked %name% as friend"
+			}
+		},
+		"loading_activity": {
+			"$0": "Loading activity...."
+		},
+		"loading_comments": {
+			"$0": "Loading comments..."
+		},
+		"loading_fans": {
+			"$0": "Loading fans..."
+		},
+		"loading_favorites": {
+			"$0": "Loading favorites lists..."
+		},
+		"loading_friends": {
+			"$0": "Loading friends list..."
+		},
+		"loading_more_activities": {
+			"$0": "Loading more activites..."
+		},
+		"loading_more_videos": {
+			"$0": "Loading more videos..."
+		},
+		"loading_next_comments": {
+			"$0": "Loading next comments..."
+		},
+		"loading_videos": {
+			"$0": "Loading videos..."
+		},
+		"tracking": {
+			"stop_liked_and_del": {
+				"$0": "Stop tracking my liked videos and delete the data on this page"
+			},
+			"stop_subs_and_del": {
+				"$0": "Stop tracking my subscriptions and delete the data on this page"
+			},
+			"store_liked": {
+				"$0": "Display my liked videos on this page again"
+			},
+			"store_subs": {
+				"$0": "Display my subscriptions on this page again"
+			}
+		}
+	},
+	"report_form": {
+		"content_owners": {
+			"$0": "Content owners, click here to send us a takedown request for copyright infringement."
+		},
+		"email": {
+			"$0": "Email"
+		},
+		"give_details": {
+			"$0": "Please give us some details, or your report will be ignored."
+		},
+		"leave_email": {
+			"$0": "Please leave your email"
+		},
+		"nevermind": {
+			"$0": "Nevermind"
+		},
+		"not_porn": {
+			"$0": "Not Porn"
+		},
+		"other": {
+			"$0": "Other"
+		},
+		"reason": {
+			"$0": "Reason"
+		},
+		"report": {
+			"$0": "Report"
+		},
+		"sending": {
+			"$0": "Sending report..."
+		},
+		"sending_failed": {
+			"$0": "Sending the report failed... Please close this message and try again."
+		},
+		"spam": {
+			"$0": "Spam"
+		},
+		"thanks": {
+			"$0": "Thanks for your report!"
+		},
+		"underage": {
+			"$0": "Underage"
+		}
+	},
+	"subscriptions": {
+		"confirm_subscribed": {
+			"$0": "Are you sure you want to unsubscribe?"
+		},
+		"subscribed": {
+			"$0": "Subscribed!"
+		},
+		"unsubscribe": {
+			"$0": "Unsubscribe"
+		},
+		"unsubscribed": {
+			"$0": "Unsubscribed!"
+		},
+		"view_activities": {
+			"$0": "View activities"
+		}
+	},
+	"user": {
+		"name": {
+			"$0": "Name"
+		}
+	},
+	"video": {
+		"comments": {
+			"comment_action": {
+				"$0": "Comment"
+			},
+			"post": {
+				"$0": "Post comment"
+			},
+			"write_name": {
+				"$0": "Write your name"
+			},
+			"your_comment": {
+				"$0": "Your comment"
+			}
+		},
+		"download": {
+			"checking": {
+				"$0": "Checking your download. Please wait..."
+			},
+			"click_to_get": {
+				"$0": "Click to get %high_or_low_quality%."
+			},
+			"click_to_get_dl": {
+				"$0": "Click %here% to get it."
+			},
+			"error_occured_retry": {
+				"$0": "Sorry but an error occurred while checking your download. Click %here% to retry."
+			},
+			"here": {
+				"$0": "HERE"
+			},
+			"high_qual": {
+				"$0": "HIGH QUALITY"
+			},
+			"low_qual": {
+				"$0": "LOW QUALITY"
+			},
+			"ready": {
+				"$0": "Your video is ready for download."
+			}
+		},
+		"download_comment_title": {
+			"$0": "Log into your account or create one to download this video. It&#039;s free, and you don&#039;t have to verify your email now."
+		},
+		"download_comment_title_short": {
+			"$0": "You must be logged in to download a video"
+		},
+		"failed_loading_comments_retry": {
+			"$0": "Failed loading comments! Please try again..."
+		},
+		"favs": {
+			"add_video": {
+				"$0": "Add video"
+			},
+			"adding_video": {
+				"$0": "Adding the video to your favorites..."
+			},
+			"create_list_and_add": {
+				"$0": "Create list and add the video in it"
+			},
+			"creating_and_adding": {
+				"$0": "Creating the new list and adding the video in it..."
+			},
+			"error_occured_adding": {
+				"$0": "An error occurred while adding the video to your favorites ! Please retry..."
+			},
+			"error_occured_removing": {
+				"$0": "An error occurred while removing the video from your favorites ! Please retry..."
+			},
+			"failed_loading_click_here": {
+				"$0": "Failed loading favorites! Click %here% to retry."
+			},
+			"failed_loading_retry": {
+				"$0": "Failed loading favorites! Please try again..."
+			},
+			"manage_favs": {
+				"$0": "Manage all your favorites"
+			},
+			"max_reached_delete_to_create_new": {
+				"$0": "You have reached the maximum number of favorites list allowed. Delete some of them to create new ones."
+			},
+			"max_videos_reached_delete_to_create_new": {
+				"$0": "You have reached the maximum number of videos allowed in favorites lists. Remove some videos or lists to add new videos to favorites."
+			},
+			"max_vids_reached": {
+				"$0": "Max number of videos allowed reached."
+			},
+			"min_length": {
+				"$0": "Please enter a list name with at least %nb_chars% characters."
+			},
+			"must_be_logged_in_to_fav": {
+				"$0": "You must be logged in to add this video to your favorites."
+			},
+			"or_create_new_list": {
+				"$0": "OR create a new list"
+			},
+			"removing_video": {
+				"$0": "Removing the video from your favorites..."
+			},
+			"video_in_list": {
+				"$0": "The video is in this list"
+			},
+			"vids": {
+				"$0": "vids"
+			},
+			"visibility": {
+				"$0": "Visibility"
+			}
+		},
+		"loading_comments": {
+			"$0": "Loading comments..."
+		},
+		"must_be_logged_to_comment": {
+			"$0": "You must be logged in to comment a video"
+		},
+		"porn_quality": {
+			"$0": "Porn quality"
+		},
+		"show_more_related": {
+			"$0": "Show more related videos"
+		},
+		"sponsors": {
+			"more_at": {
+				"$0": "More videos like this one at"
+			}
+		},
+		"verified_uploader": {
+			"$0": "Verified uploader"
+		},
+		"votes": {
+			"thanks": {
+				"$0": "Thanks for your vote!"
+			},
+			"thanks_link": {
+				"$0": "Thanks! %start_link%View your videos here!%end_link%"
+			}
+		}
+	},
+	"viewer": {
+		"close": {
+			"$0": "Close viewer"
+		}
+	}
+}

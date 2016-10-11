@@ -1,0 +1,61 @@
+{
+	"queryid": "be8f1819d4329a80",
+	"tuid": "u2070813_0",
+	"placement": {
+		"basic": {
+			"cname": "50071140_cpr",
+			"conBackEnv": 1,
+			"flowType": 1,
+			"mediumType": 1,
+			"rspFormat": 1,
+			"sellType": 2,
+			"sspId": 1,
+			"tuId": 9223372032561879325,
+			"userId": 7017965
+		},
+		"container": {
+			"anchoredType": 1,
+			"floated": {},
+			"height": 100,
+			"sizeType": 1,
+			"slide": {},
+			"width": 375
+		},
+		"fillstyle": {
+			"cloudTheme": {},
+			"elements": [5],
+			"layout": [2],
+			"lu": {
+				"borderWidth": null
+			},
+			"search": {},
+			"styleType": 2,
+			"txt": {
+				"fontSize": null,
+				"number": 0
+			},
+			"video": {}
+		},
+		"userdefine": "|cpro_layout_filter=rank,tabcloud|cpro_template=baiduTlinkInlay|cpro_version=2.0",
+		"complement_type": 2,
+		"update": "1445368502_1464098059"
+	},
+	"extends": {
+		"ssph": 100,
+		"sspw": 375
+	},
+	"pdb_deliv": {
+		"deliv_id": "0",
+		"deliv_des": {},
+		"brandad": 0
+	},
+	"order_deliv": {
+		"deliv_id": "0",
+		"demand_id": "0"
+	},
+	"rtb_deliv": {
+		"deliv_id": "0",
+		"demand_id": "2070813"
+	},
+	"media_protect": ""
+}

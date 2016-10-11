@@ -1,0 +1,52 @@
+{
+  "name": "@defrecord/json-schema",
+  "version": "0.0.1",
+  "description": "Ads Data Exchange Schemas",
+  "main": "src/index.js",
+  "scripts": {
+    "docs": "./node_modules/.bin/documentation readme -s API",
+    "build": "./node_modules/.bin/webpack",
+    "lint": "./node_modules/.bin/eslint src/",
+    "sites": "./node_modules/.bin/slimerjs scripts/sites.js",
+    "test": "karma start --single-run --browsers PhantomJS",
+    "tests": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defrecord/defrecord-json-schema.git"
+  },
+  "author": "Jason Walsh <j@wal.sh>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/defrecord/defrecord-json-schema/issues"
+  },
+  "homepage": "https://github.com/defrecord/defrecord-json-schema#readme",
+  "devDependencies": {
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-requirejs": "^1.1.0",
+    "phantomjs-prebuilt": "^2.1.13",
+    "slimerjs": "^0.906.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-plugin-check-es2015-constants": "^6.8.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.8.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.15.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "documentation": "^4.0.0-beta11",
+    "eslint": "^3.7.1",
+    "getstorybook": "^1.5.3",
+    "immutable": "^3.8.1",
+    "karma": "^1.3.0",
+    "karma-mocha": "^1.2.0",
+    "mocha": "^3.1.2",
+    "redux": "^3.6.0",
+    "redux-devtools": "^3.3.1",
+    "rimraf": "^2.5.4",
+    "sha256": "^0.2.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.13.0"
+  }
+}

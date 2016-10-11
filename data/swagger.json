@@ -1,22 +1,22 @@
 {
-	"analytics": {
-		"google": {
-			"id": null
-		}
-	},
-	"disableCodeGen": true,
-	"disableNewUserIntro": true,
-	"examplesFolder": "/spec-files/",
-	"exampleFiles": [],
-	"autocompleteExtension": {},
-	"useBackendForStorage": true,
-	"backendEndpoint": "/editor/spec",
-	"backendHealthCheckTimeout": 5000,
-	"useYamlBackend": true,
-	"disableFileMenu": true,
-	"enableTryIt": true,
-	"headerBranding": false,
-	"brandingCssClass": null,
-	"schemaUrl": "/schema/swagger.json",
-	"importProxyUrl": "https://cors-it.herokuapp.com/?url="
+    "analytics": {
+        "google": {
+            "id": null
+        }
+    },
+    "autocompleteExtension": {},
+    "backendEndpoint": "/editor/spec",
+    "backendHealthCheckTimeout": 5000,
+    "brandingCssClass": null,
+    "disableCodeGen": true,
+    "disableFileMenu": true,
+    "disableNewUserIntro": true,
+    "enableTryIt": true,
+    "exampleFiles": [],
+    "examplesFolder": "/spec-files/",
+    "headerBranding": false,
+    "importProxyUrl": "https://cors-it.herokuapp.com/?url=",
+    "schemaUrl": "/schema/swagger.json",
+    "useBackendForStorage": true,
+    "useYamlBackend": true
 }

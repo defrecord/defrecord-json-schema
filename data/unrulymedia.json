@@ -1,133 +1,194 @@
 {
-	"siteId": 622640,
-	"featureOverrides": {
-		"siteSupportsHTTPS": true,
-		"useDinkContainer": false,
-		"siteSupportsResponsiveInFeedVideo": true,
-		"inArticleUnrulyVPAID": true,
-		"inArticleExchangeEndPoint": true,
-		"reportSize": true,
-		"alchemyPlayer": true,
-		"inFeedAlchemyPlayer": true,
-		"measureDisplayImpressions": true,
-		"fullscreenInArticleSupported": true,
-		"debugTicker": true
-	},
-	"placements": [{
-		"name": "nypost.com - In-Article [1]",
-		"targetingUUID": "c88b7dc9-9bc0-41ba-8ac4-c301be6dc8fb",
-		"placementId": "inArticle",
-		"categories": ["news"],
-		"format": {
-			"inArticle": {
-				"basePlacement": {
-					"selector": "body[data-unruly-publisher-marker__inArticle] div.entry-content:has(p:eq(4)) > p:eq(2)"
-				}
-			}
-		}
-	}, {
-		"name": "nypost.com - In-Article [2]",
-		"targetingUUID": "c88b7dc9-9bc0-41ba-8ac4-c301be6dc8fb",
-		"placementId": "inArticle",
-		"categories": ["news"],
-		"format": {
-			"inArticle": {
-				"basePlacement": {
-					"selector": "body[data-unruly-publisher-marker__inArticle] div.entry-content > p:eq(1)"
-				}
-			}
-		}
-	}, {
-		"name": "nypost.com - In-Article (Wiki Format)",
-		"targetingUUID": "c88b7dc9-9bc0-41ba-8ac4-c301be6dc8fb",
-		"placementId": "inArticle",
-		"categories": ["news"],
-		"format": {
-			"inArticle": {
-				"basePlacement": {
-					"selector": "body[data-unruly-publisher-marker__inArticle] div.entry-content > .wiki > p:eq(1)"
-				}
-			}
-		}
-	}, {
-		"name": "nypost.com - Section Pages",
-		"targetingUUID": "c88b7dc9-9bc0-41ba-8ac4-c301be6dc8fb",
-		"placementId": "inFeed",
-		"categories": ["news"],
-		"format": {
-			"inFeed": {
-				"basePlacement": {
-					"selector": "body[data-unruly-publisher-marker__inFeed]:not(.tag-dispatch):not(.tag-september-11) .article-loop article.article:first"
-				},
-				"title": {
-					"selectors": ["h3 a"]
-				},
-				"description": {
-					"selectors": [".entry-content"]
-				},
-				"thumbnail": {
-					"selectors": ["img"]
-				},
-				"disclosureMessage": {
-					"selectors": [".entry-meta"]
-				},
-				"clickThroughs": {
-					"title": {
-						"selectors": ["h3 a"]
-					},
-					"thumbnail": {
-						"selectors": ["div.entry-thumbnail a"]
-					},
-					"disclosureMessage": {
-						"selectors": [".entry-meta"]
-					}
-				},
-				"toRemove": {
-					"elements": [{
-						"selectors": [".polar-sponsor", "source"]
-					}],
-					"classes": [],
-					"attributes": [{
-						"selectors": ["*"],
-						"attributeNames": ["data-picture", "data-alt"]
-					}, {
-						"selectors": ["img"],
-						"attributeNames": ["srcset", "data-srcset"]
-					}],
-					"textNodes": []
-				},
-				"toAdd": {
-					"elements": [{
-						"selectors": [".unruly_native_placement"],
-						"tagName": "div",
-						"classNames": ["rule"],
-						"location": "prepend",
-						"attributes": {
-							"style": "display: block;"
-						}
-					}],
-					"classes": [],
-					"attributes": [],
-					"styles": [{
-						"selectors": [".unruly_native_placement"],
-						"css": {
-							"display": "block"
-						}
-					}, {
-						"selectors": [".unruly_native_html5_container"],
-						"css": {
-							"background-color": "#000"
-						}
-					}, {
-						"selectors": [".entry-meta"],
-						"css": {
-							"margin-top": "4px",
-							"margin-bottom": "4px",
-							"display": "block"
-						}
-					}]
-				}
-			}
-		}
-	}]
+    "featureOverrides": {
+        "alchemyPlayer": true,
+        "debugTicker": true,
+        "fullscreenInArticleSupported": true,
+        "inArticleExchangeEndPoint": true,
+        "inArticleUnrulyVPAID": true,
+        "inFeedAlchemyPlayer": true,
+        "measureDisplayImpressions": true,
+        "reportSize": true,
+        "siteSupportsHTTPS": true,
+        "siteSupportsResponsiveInFeedVideo": true,
+        "useDinkContainer": false
+    },
+    "placements": [
+        {
+            "categories": [
+                "news"
+            ],
+            "format": {
+                "inArticle": {
+                    "basePlacement": {
+                        "selector": "body[data-unruly-publisher-marker__inArticle] div.entry-content:has(p:eq(4)) > p:eq(2)"
+                    }
+                }
+            },
+            "name": "nypost.com - In-Article [1]",
+            "placementId": "inArticle",
+            "targetingUUID": "c88b7dc9-9bc0-41ba-8ac4-c301be6dc8fb"
+        },
+        {
+            "categories": [
+                "news"
+            ],
+            "format": {
+                "inArticle": {
+                    "basePlacement": {
+                        "selector": "body[data-unruly-publisher-marker__inArticle] div.entry-content > p:eq(1)"
+                    }
+                }
+            },
+            "name": "nypost.com - In-Article [2]",
+            "placementId": "inArticle",
+            "targetingUUID": "c88b7dc9-9bc0-41ba-8ac4-c301be6dc8fb"
+        },
+        {
+            "categories": [
+                "news"
+            ],
+            "format": {
+                "inArticle": {
+                    "basePlacement": {
+                        "selector": "body[data-unruly-publisher-marker__inArticle] div.entry-content > .wiki > p:eq(1)"
+                    }
+                }
+            },
+            "name": "nypost.com - In-Article (Wiki Format)",
+            "placementId": "inArticle",
+            "targetingUUID": "c88b7dc9-9bc0-41ba-8ac4-c301be6dc8fb"
+        },
+        {
+            "categories": [
+                "news"
+            ],
+            "format": {
+                "inFeed": {
+                    "basePlacement": {
+                        "selector": "body[data-unruly-publisher-marker__inFeed]:not(.tag-dispatch):not(.tag-september-11) .article-loop article.article:first"
+                    },
+                    "clickThroughs": {
+                        "disclosureMessage": {
+                            "selectors": [
+                                ".entry-meta"
+                            ]
+                        },
+                        "thumbnail": {
+                            "selectors": [
+                                "div.entry-thumbnail a"
+                            ]
+                        },
+                        "title": {
+                            "selectors": [
+                                "h3 a"
+                            ]
+                        }
+                    },
+                    "description": {
+                        "selectors": [
+                            ".entry-content"
+                        ]
+                    },
+                    "disclosureMessage": {
+                        "selectors": [
+                            ".entry-meta"
+                        ]
+                    },
+                    "thumbnail": {
+                        "selectors": [
+                            "img"
+                        ]
+                    },
+                    "title": {
+                        "selectors": [
+                            "h3 a"
+                        ]
+                    },
+                    "toAdd": {
+                        "attributes": [],
+                        "classes": [],
+                        "elements": [
+                            {
+                                "attributes": {
+                                    "style": "display: block;"
+                                },
+                                "classNames": [
+                                    "rule"
+                                ],
+                                "location": "prepend",
+                                "selectors": [
+                                    ".unruly_native_placement"
+                                ],
+                                "tagName": "div"
+                            }
+                        ],
+                        "styles": [
+                            {
+                                "css": {
+                                    "display": "block"
+                                },
+                                "selectors": [
+                                    ".unruly_native_placement"
+                                ]
+                            },
+                            {
+                                "css": {
+                                    "background-color": "#000"
+                                },
+                                "selectors": [
+                                    ".unruly_native_html5_container"
+                                ]
+                            },
+                            {
+                                "css": {
+                                    "display": "block",
+                                    "margin-bottom": "4px",
+                                    "margin-top": "4px"
+                                },
+                                "selectors": [
+                                    ".entry-meta"
+                                ]
+                            }
+                        ]
+                    },
+                    "toRemove": {
+                        "attributes": [
+                            {
+                                "attributeNames": [
+                                    "data-picture",
+                                    "data-alt"
+                                ],
+                                "selectors": [
+                                    "*"
+                                ]
+                            },
+                            {
+                                "attributeNames": [
+                                    "srcset",
+                                    "data-srcset"
+                                ],
+                                "selectors": [
+                                    "img"
+                                ]
+                            }
+                        ],
+                        "classes": [],
+                        "elements": [
+                            {
+                                "selectors": [
+                                    ".polar-sponsor",
+                                    "source"
+                                ]
+                            }
+                        ],
+                        "textNodes": []
+                    }
+                }
+            },
+            "name": "nypost.com - Section Pages",
+            "placementId": "inFeed",
+            "targetingUUID": "c88b7dc9-9bc0-41ba-8ac4-c301be6dc8fb"
+        }
+    ],
+    "siteId": 622640
 }

@@ -1,122 +1,123 @@
 {
-	"optimatic": {
-		"id": "xxxxxx-xxxx-xxxx-xxxxxxxxxxx",
-		"status": "success",
-		"message": "",
-		"MoatEnabled": "Y",
-		"retry": "0",
-		"partnerID": "IQ5of3s9gglx",
-		"Server": "IP-AC1405A6",
-		"IntegralEnabled": "N",
-		"OrderType": "rank",
-		"rtbDataPost": "v=4.5\u0026page_host=www.latimes.com\u0026page_domain=latimes.com\u0026age=\u0026age_range=\u0026gender=\u0026segment=\u0026content_url=\u0026content_page_url=http%3a%2f%2fwww.latimes.com%2f\u0026alfyzone=default\u0026sw=300\u0026sh=250\u0026position=1\u0026userid=AA839557-4320-4B13-6B16-E0E706388C4D\u0026video_url=\u0026video_title=\u0026video_desc=\u0026video_id=\u0026video_asset_url=\u0026video_width=\u0026video_height=\u0026UserAgent=Mozilla%2f5.0+(Macintosh%3b+Intel+Mac+OS+X+10_10_5)+AppleWebKit%2f537.36+(KHTML%2c+like+Gecko)+Chrome%2f53.0.2785.143+Safari%2f537.36\u0026HardwareVendor=Apple\u0026HardwareModel=Macintosh\u0026PlatformVendor=Apple\u0026PlatformName=Mac+OS+X\u0026PlatformVersion=10.10\u0026IsMobile=False\u0026IsTablet=False\u0026BrowserVendor=Google\u0026BrowserName=Chrome\u0026BrowserVersion=49\u0026OptSrc=\u0026IP=76.118.182.194\u0026countryCode=US\u0026countryName=United+States\u0026region=MA\u0026city=Cambridge\u0026postalCode=02139\u0026latitude=42.3646\u0026longitude=-71.1028\u0026metro_code=506\u0026area_code=\u0026regionName=Massachusetts\u0026partnerID=IQ5of3s9gglx\u0026TargetCpm=8.50\u0026HCPM=10\u0026CPMList=10%7c\u0026wb_markup=0.01"
-
-		,
-		"MaxMindXML": {
-			"IP": "100.100.100.100",
-			"ErrorMessage": "",
-			"countryCode": "US",
-			"countryName": "United States",
-			"region": "MA",
-			"city": "Cambridge",
-			"postalCode": "02139",
-			"latitude": "42.000",
-			"longitude": "-71.000",
-			"metro_code": "506",
-			"regionName": "Massachusetts"
-		}
-
-		,
-		"initThirdPartyURLs": [{
-			"vendor": "RHY_DIAGR0000",
-			"url": "http://sync.1rx.io/usersync2/optimatic"
-		}],
-		"TrackingEvents": {
-			"trackImpression": "",
-			"trackAd": "http://tracking.optimatic.com/3.5/tracking/trackAd.ashx?adID=IQ5of3s9gglx\u0026noCache=407149260\u0026publisher_id_qs=1714921\u0026page_host=www.latimes.com\u0026sw=300\u0026sh=250\u0026content_page_url=http%3a%2f%2fwww.latimes.com%2f\u0026gender=\u0026tid=c3535ebf-4e3a-43db-b52d-a5b7f9645a49",
-			"noAd": "http://ntracking.optimatic.com/3.5/Ntracking/trackAd.ashx?adID=IQ5of3s9gglx\u0026noCache=407149260\u0026publisher_id_qs=1714921\u0026page_host=www.latimes.com\u0026sw=300\u0026sh=250\u0026content_page_url=http%3a%2f%2fwww.latimes.com%2f\u0026gender=\u0026tid=c3535ebf-4e3a-43db-b52d-a5b7f9645a49",
-			"impression": "",
-			"start": "http://tracking.optimatic.com/3.5/Tracking/trackAdLoadTime.ashx?adID=IQ5of3s9gglx\u0026noCache=407149260\u0026alfyzone=default\u0026countrycode=US\u0026region=MA\u0026postalcode=02139\u0026sw=300\u0026sh=250\u0026gender=\u0026position=1\u0026page_host=www.latimes.com\u0026tid=c3535ebf-4e3a-43db-b52d-a5b7f9645a49",
-			"firstQuartile": "",
-			"midpoint": "",
-			"thirdQuartile": "",
-			"complete": "http://tracking.optimatic.com/3.5/Tracking/trackEvent.ashx?event=complete\u0026id=IQ5of3s9gglx\u0026noCache=407149260\u0026alfyzone=default\u0026countrycode=US\u0026sw=300\u0026sh=250\u0026gender=\u0026position=1\u0026page_host=www.latimes.com\u0026tid=c3535ebf-4e3a-43db-b52d-a5b7f9645a49",
-			"mute": "",
-			"unmute": "",
-			"pause": "",
-			"resume": "",
-			"close": "",
-			"click": "http://tracking.optimatic.com/3.5/Tracking/trackEvent.ashx?event=click\u0026id=IQ5of3s9gglx\u0026noCache=407149260\u0026alfyzone=default\u0026countrycode=US\u0026sw=300\u0026sh=250\u0026gender=\u0026position=1\u0026page_host=www.latimes.com\u0026tid=c3535ebf-4e3a-43db-b52d-a5b7f9645a49",
-			"noAds": "http://tracking.optimatic.com/3.5/Tracking/trackEvent.ashx?event=noAds\u0026id=IQ5of3s9gglx\u0026noCache=407149260\u0026alfyzone=default\u0026countrycode=US\u0026sw=300\u0026sh=250\u0026gender=\u0026position=1\u0026page_host=www.latimes.com\u0026tid=c3535ebf-4e3a-43db-b52d-a5b7f9645a49"
-		}
-
-		,
-		"Ad": [{
-			"adID": "DYNA_DIAGR00001",
-			"adType": "gima",
-			"adUrl": "http://rtb.optimatic.com/webservice/getRTB.ashx?1=1\u0026OptimaticTargetCpm=12.50\u0026bidfloor=1\u0026Advertiser_ID=DYNA_DIAGR00001\u0026RTBType=JSON\u0026pubID=1714921\u0026CookieSyncId=dynadmic_rtb\u0026rnd=407149260",
-			"CookieSyncUrl": "",
-			"cpm": "var",
-			"rank": "1",
-			"fc": "40",
-			"campaign_id": "|",
-			"isRTB": "Y",
-			"ac": 25,
-			"campaign_label": "",
-			"pop_test_status": "0"
-		}, {
-			"adID": "APP_DIAGR0301",
-			"adType": "gima",
-			"adUrl": "http://rtb.optimatic.com/webservice/getRTB.ashx?1=1\u0026OptimaticTargetCpm=12.50\u0026bidfloor=1\u0026Advertiser_ID=APP_DIAGR0301\u0026RTBType=JSON\u0026pubID=1714921\u0026CookieSyncId=a847p922n\u0026rnd=219530021",
-			"CookieSyncUrl": "",
-			"cpm": "var",
-			"rank": "2",
-			"fc": "40",
-			"campaign_id": "|",
-			"isRTB": "Y",
-			"ac": 25,
-			"campaign_label": "",
-			"pop_test_status": "0"
-		}, {
-			"adID": "RHY_DIAGR0000",
-			"adType": "gima",
-			"adUrl": "http://rtb.optimatic.com/webservice/getRTB.ashx?1=1\u0026OptimaticTargetCpm=12.50\u0026bidfloor=1\u0026Advertiser_ID=RHY_DIAGR0000\u0026RTBType=JSON\u0026pubID=1714921\u0026CookieSyncId=r53y89m47m\u0026rnd=504608355",
-			"CookieSyncUrl": "http://sync.1rx.io/usersync2/optimatic",
-			"cpm": "var",
-			"rank": "3",
-			"fc": "40",
-			"campaign_id": "|",
-			"isRTB": "Y",
-			"ac": 25,
-			"campaign_label": "",
-			"pop_test_status": "0"
-		}, {
-			"adID": "ADFODIAGR3740",
-			"adType": "gima",
-			"adUrl": "http://rtb.optimatic.com/webservice/getRTB.ashx?1=1\u0026OptimaticTargetCpm=12.50\u0026bidfloor=1\u0026Advertiser_ID=ADFODIAGR3740\u0026RTBType=JSON\u0026pubID=1714921\u0026CookieSyncId=ad3f01g3\u0026rnd=948893380",
-			"CookieSyncUrl": "",
-			"cpm": "var",
-			"rank": "4",
-			"fc": "40",
-			"campaign_id": "|",
-			"isRTB": "Y",
-			"ac": 25,
-			"campaign_label": "",
-			"pop_test_status": "0"
-		}, {
-			"adID": "VAST_19839",
-			"adType": "gima",
-			"adUrl": "http://vast.videe.tv/vast-proxy/?aid=27850\u0026content_page_url=http%3a%2f%2fwww.latimes.com%2f\u0026player_width=300\u0026player_height=250\u0026vid_duration=300\u0026cb=407149260",
-			"CookieSyncUrl": "",
-			"cpm": "10",
-			"rank": "16",
-			"fc": "40",
-			"campaign_id": "|",
-			"isRTB": "N",
-			"ac": 4,
-			"campaign_label": "",
-			"pop_test_status": "1"
-		}]
-
-	}
+    "optimatic": {
+        "Ad": [
+            {
+                "CookieSyncUrl": "",
+                "ac": 25,
+                "adID": "DYNA_DIAGR00001",
+                "adType": "gima",
+                "adUrl": "http://rtb.optimatic.com/webservice/getRTB.ashx?1=1&OptimaticTargetCpm=12.50&bidfloor=1&Advertiser_ID=DYNA_DIAGR00001&RTBType=JSON&pubID=1714921&CookieSyncId=dynadmic_rtb&rnd=407149260",
+                "campaign_id": "|",
+                "campaign_label": "",
+                "cpm": "var",
+                "fc": "40",
+                "isRTB": "Y",
+                "pop_test_status": "0",
+                "rank": "1"
+            },
+            {
+                "CookieSyncUrl": "",
+                "ac": 25,
+                "adID": "APP_DIAGR0301",
+                "adType": "gima",
+                "adUrl": "http://rtb.optimatic.com/webservice/getRTB.ashx?1=1&OptimaticTargetCpm=12.50&bidfloor=1&Advertiser_ID=APP_DIAGR0301&RTBType=JSON&pubID=1714921&CookieSyncId=a847p922n&rnd=219530021",
+                "campaign_id": "|",
+                "campaign_label": "",
+                "cpm": "var",
+                "fc": "40",
+                "isRTB": "Y",
+                "pop_test_status": "0",
+                "rank": "2"
+            },
+            {
+                "CookieSyncUrl": "http://sync.1rx.io/usersync2/optimatic",
+                "ac": 25,
+                "adID": "RHY_DIAGR0000",
+                "adType": "gima",
+                "adUrl": "http://rtb.optimatic.com/webservice/getRTB.ashx?1=1&OptimaticTargetCpm=12.50&bidfloor=1&Advertiser_ID=RHY_DIAGR0000&RTBType=JSON&pubID=1714921&CookieSyncId=r53y89m47m&rnd=504608355",
+                "campaign_id": "|",
+                "campaign_label": "",
+                "cpm": "var",
+                "fc": "40",
+                "isRTB": "Y",
+                "pop_test_status": "0",
+                "rank": "3"
+            },
+            {
+                "CookieSyncUrl": "",
+                "ac": 25,
+                "adID": "ADFODIAGR3740",
+                "adType": "gima",
+                "adUrl": "http://rtb.optimatic.com/webservice/getRTB.ashx?1=1&OptimaticTargetCpm=12.50&bidfloor=1&Advertiser_ID=ADFODIAGR3740&RTBType=JSON&pubID=1714921&CookieSyncId=ad3f01g3&rnd=948893380",
+                "campaign_id": "|",
+                "campaign_label": "",
+                "cpm": "var",
+                "fc": "40",
+                "isRTB": "Y",
+                "pop_test_status": "0",
+                "rank": "4"
+            },
+            {
+                "CookieSyncUrl": "",
+                "ac": 4,
+                "adID": "VAST_19839",
+                "adType": "gima",
+                "adUrl": "http://vast.videe.tv/vast-proxy/?aid=27850&content_page_url=http%3a%2f%2fwww.latimes.com%2f&player_width=300&player_height=250&vid_duration=300&cb=407149260",
+                "campaign_id": "|",
+                "campaign_label": "",
+                "cpm": "10",
+                "fc": "40",
+                "isRTB": "N",
+                "pop_test_status": "1",
+                "rank": "16"
+            }
+        ],
+        "IntegralEnabled": "N",
+        "MaxMindXML": {
+            "ErrorMessage": "",
+            "IP": "100.100.100.100",
+            "city": "Cambridge",
+            "countryCode": "US",
+            "countryName": "United States",
+            "latitude": "42.000",
+            "longitude": "-71.000",
+            "metro_code": "506",
+            "postalCode": "02139",
+            "region": "MA",
+            "regionName": "Massachusetts"
+        },
+        "MoatEnabled": "Y",
+        "OrderType": "rank",
+        "Server": "IP-AC1405A6",
+        "TrackingEvents": {
+            "click": "http://tracking.optimatic.com/3.5/Tracking/trackEvent.ashx?event=click&id=IQ5of3s9gglx&noCache=407149260&alfyzone=default&countrycode=US&sw=300&sh=250&gender=&position=1&page_host=www.latimes.com&tid=c3535ebf-4e3a-43db-b52d-a5b7f9645a49",
+            "close": "",
+            "complete": "http://tracking.optimatic.com/3.5/Tracking/trackEvent.ashx?event=complete&id=IQ5of3s9gglx&noCache=407149260&alfyzone=default&countrycode=US&sw=300&sh=250&gender=&position=1&page_host=www.latimes.com&tid=c3535ebf-4e3a-43db-b52d-a5b7f9645a49",
+            "firstQuartile": "",
+            "impression": "",
+            "midpoint": "",
+            "mute": "",
+            "noAd": "http://ntracking.optimatic.com/3.5/Ntracking/trackAd.ashx?adID=IQ5of3s9gglx&noCache=407149260&publisher_id_qs=1714921&page_host=www.latimes.com&sw=300&sh=250&content_page_url=http%3a%2f%2fwww.latimes.com%2f&gender=&tid=c3535ebf-4e3a-43db-b52d-a5b7f9645a49",
+            "noAds": "http://tracking.optimatic.com/3.5/Tracking/trackEvent.ashx?event=noAds&id=IQ5of3s9gglx&noCache=407149260&alfyzone=default&countrycode=US&sw=300&sh=250&gender=&position=1&page_host=www.latimes.com&tid=c3535ebf-4e3a-43db-b52d-a5b7f9645a49",
+            "pause": "",
+            "resume": "",
+            "start": "http://tracking.optimatic.com/3.5/Tracking/trackAdLoadTime.ashx?adID=IQ5of3s9gglx&noCache=407149260&alfyzone=default&countrycode=US&region=MA&postalcode=02139&sw=300&sh=250&gender=&position=1&page_host=www.latimes.com&tid=c3535ebf-4e3a-43db-b52d-a5b7f9645a49",
+            "thirdQuartile": "",
+            "trackAd": "http://tracking.optimatic.com/3.5/tracking/trackAd.ashx?adID=IQ5of3s9gglx&noCache=407149260&publisher_id_qs=1714921&page_host=www.latimes.com&sw=300&sh=250&content_page_url=http%3a%2f%2fwww.latimes.com%2f&gender=&tid=c3535ebf-4e3a-43db-b52d-a5b7f9645a49",
+            "trackImpression": "",
+            "unmute": ""
+        },
+        "id": "xxxxxx-xxxx-xxxx-xxxxxxxxxxx",
+        "initThirdPartyURLs": [
+            {
+                "url": "http://sync.1rx.io/usersync2/optimatic",
+                "vendor": "RHY_DIAGR0000"
+            }
+        ],
+        "message": "",
+        "partnerID": "IQ5of3s9gglx",
+        "retry": "0",
+        "rtbDataPost": "v=4.5&page_host=www.latimes.com&page_domain=latimes.com&age=&age_range=&gender=&segment=&content_url=&content_page_url=http%3a%2f%2fwww.latimes.com%2f&alfyzone=default&sw=300&sh=250&position=1&userid=AA839557-4320-4B13-6B16-E0E706388C4D&video_url=&video_title=&video_desc=&video_id=&video_asset_url=&video_width=&video_height=&UserAgent=Mozilla%2f5.0+(Macintosh%3b+Intel+Mac+OS+X+10_10_5)+AppleWebKit%2f537.36+(KHTML%2c+like+Gecko)+Chrome%2f53.0.2785.143+Safari%2f537.36&HardwareVendor=Apple&HardwareModel=Macintosh&PlatformVendor=Apple&PlatformName=Mac+OS+X&PlatformVersion=10.10&IsMobile=False&IsTablet=False&BrowserVendor=Google&BrowserName=Chrome&BrowserVersion=49&OptSrc=&IP=76.118.182.194&countryCode=US&countryName=United+States&region=MA&city=Cambridge&postalCode=02139&latitude=42.3646&longitude=-71.1028&metro_code=506&area_code=&regionName=Massachusetts&partnerID=IQ5of3s9gglx&TargetCpm=8.50&HCPM=10&CPMList=10%7c&wb_markup=0.01",
+        "status": "success"
+    }
 }

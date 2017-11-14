@@ -1,0 +1,250 @@
+swagger: '2.0'
+info:
+  version: 0.0.0
+  title:
+  description: Customer Experience Digital Data Layer 1.0
+schemes:
+  - http
+  - https
+consumes:
+  - application/json
+produces:
+  - application/json
+securityDefinitions:
+  JWT:
+    description: 'Token response from POST /login'
+    type: apiKey
+    name: X-Auth-Token
+    in: header
+x-stoplight:
+  mock:
+    enabled: true
+    dynamic: true
+
+paths:
+  /:
+    get:
+      summary: Overview of available links
+      responses:
+        '200':
+          description: Successful Operation
+          schema:
+            $ref: '#/definitions/Links'
+
+  /login:
+    post:
+      summary: Login and get JWT token
+      parameters:
+        - name: body
+          in: body
+          schema:
+            $ref: '#/definitions/Login'
+      responses:
+        '200':
+          description: Successful Operation
+          schema:
+            $ref: '#/definitions/Token'
+          examples:
+            application/json:
+              token: "jwt.test.token"
+        '400':
+          description: 'Bad Request'
+          schema:
+            $ref: '#/definitions/ModelError'
+        '401':
+          description: 'Invalid username or password'
+          schema:
+            $ref: '#/definitions/ModelError'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/ISEError'
+
+  /profile:
+    get:
+      summary: Get profile
+      responses:
+        '200':
+          description: Successful Operation
+          schema:
+            $ref: '#/definitions/User'
+        '405':
+          description: Cannot access profile
+          schema:
+            $ref: '#/definitions/ModelError'
+        '404':
+          description: Profile not found
+          schema:
+            $ref: '#/definitions/ModelError'
+        '500':
+          description: Bad data
+          schema:
+            $ref: '#/definitions/ISEError'
+      security:
+        - JWT: []
+
+  /digitalData:
+    get:
+      summary: Get Digital Data
+      responses:
+        '200':
+          description: Successful Operation
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/DigitalData'
+        '405':
+          description: User role prohibits access
+          schema:
+            $ref: '#/definitions/ModelError'
+        '500':
+          description: Invalid token
+          schema:
+            $ref: '#/definitions/ModelError'
+      security:
+        - JWT: []
+
+definitions:
+  Links:
+    title: Links
+    type: object
+    required:
+      - _links
+    properties:
+      _links:
+        type: object
+
+  Page:
+    title: Page
+    type: object
+    required:
+      - size
+      - totalElements
+      - totalPages
+      - number
+    properties:
+      size:
+        type: number
+      totalElements:
+        type: number
+      totalPages:
+        type: number
+      number:
+        type: number
+
+  ModelError:
+    title: ModelError
+    type: object
+    properties:
+      message:
+        type: string
+      errors:
+        type: array
+        items:
+          type: string
+
+  ISEError:
+    title: ModelError
+    type: object
+    properties:
+      timestamp:
+        type: string
+      status:
+        type: string
+      error:
+        type: string
+      exception:
+        type: string
+      message:
+        type: string
+      path:
+        type: string
+
+  Message:
+    title: Message
+    type: object
+    properties:
+      message:
+        type: string
+        minLength: 64
+      status:
+        type: integer
+        minimum: 200
+        maximum: 500
+
+  Login:
+    title: Login
+    type: object
+    required:
+      - username
+      - password
+    properties:
+      username:
+        type: string
+        example: 'admin101@example.com'
+      password:
+        type: string
+        example: 'password'
+
+  Token:
+    title: Token
+    type: object
+    required:
+      - token
+    properties:
+      token:
+        type: string
+        minLength: 64
+        pattern: '^\w*\.\w*\.\w*$'
+
+  User:
+    title: User
+    required:
+      - id
+      - username
+      - firstName
+      - lastName
+      - roles
+    properties:
+      id:
+        type: integer
+        format: int64
+        minimum: 0
+      username:
+        type: string
+      firstName:
+        type: string
+        example: Grace
+      lastName:
+        type: string
+        example: Hopper
+
+  DigitalData:
+    title: Digital Data
+    properties:
+      pageInstanceID:
+        type: string
+      page:
+        type: object
+      product:
+        type: array
+        items:
+          type: object
+      cart:
+        type: object
+      transaction:
+        type: object
+      event:
+        type: array
+        items:
+          type: object
+      component:
+        type: array
+        items:
+          type: object
+      user:
+        type: array
+        items:
+          type: object
+      privacyAccessCategories:
+        type: object

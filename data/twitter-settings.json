@@ -1,0 +1,11 @@
+{
+	"should_obtain_cookie_consent": false,
+	"is_bucketed": true,
+	"experiments": {
+		"tfw_sports_event_news_action_7991": {
+			"bucket": "generic_sports_action",
+			"version": 7
+		}
+	},
+	"is_allowed_ads": false
+}

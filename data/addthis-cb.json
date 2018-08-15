@@ -1,0 +1,13 @@
+{
+	"bt2": "5b747714009ws0020003ys0040001As0200009As0040001Bs0020001Cs0a60003Cs0002003Ds00600038s0020001Es0040001Fs0282001Gs4000003Gs0020001Hs0020001Is0200001Js0200002es220000bks2000001ss4440001ts0002001us0060009us0020001vs0002",
+	"loc": "MDIxMTZOQVVTTUEyMjIzMTA4OTUwNjAwMDBDSA==",
+	"pixels": [{
+		"url": "http://cspix.media6degrees.com/orbserv/hbpix?pixId=1598&pcv=45&ptid=100&tpuv=01&tpu=592ee5bdb0848583&curl=http%3A%2F%2Fthehill.com%2F",
+		"id": 8738,
+		"isHttp": true
+	}, {
+		"url": "http://tags.bluekai.com/site/21176?ret=html&limit=3&id=592ee5bdb0848583#iframe",
+		"id": 6088,
+		"isHttp": true
+	}]
+}
